@@ -19,7 +19,7 @@ const App = ()=>{
     
     return(
         <div className='ui container'>
-             <SearchBar onFormSubmit={search} />
+             <SearchBar label ='Search YT Videos' onFormSubmit={search} />
              <div className='ui grid'>
                 <div className='ui row'>
                     <div className='eleven wide column'>
